@@ -9,9 +9,6 @@ authRoute = require('./routes/user.route')
 dateRoute = require('./routes/dates.route')
 portfolioRoute = require('./routes/portfolio.route')
 
-app.get('/', (req, res) =>{
-    res.send("Welcome")
-})
 app.use(express.json())
 
 
